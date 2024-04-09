@@ -47,6 +47,7 @@ ul {
 button {
     all: unset;
     cursor: pointer;
+    border: none;
 }
 
 button.primary {
@@ -60,15 +61,13 @@ button.primary {
 }
 
 button.secondary {
-    color: var(--primary-color);
-    background-color: var(--text-secondary-color);
-    border: 1px solid var(--primary-color);
+    color: var(--text-secondary-color);
+    background: linear-gradient(50deg, var(--primary-color), var(--complementary-color));
     transition: all 0.5s;
+}
 
-    &:hover {
-        color: var(--text-secondary-color);
-        background-color: var(--primary-color);
-    }
+button.secondary:hover {
+    background: linear-gradient(50deg, var(--complementary-color), var(--primary-color))
 }
 
 button.primary,
