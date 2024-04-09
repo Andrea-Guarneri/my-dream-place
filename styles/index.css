@@ -94,9 +94,20 @@ header.container .logo img {
     width: 200px;
 }
 
+header.container nav {
+    display: flex;
+    height: 100%;
+}
+
 header.container nav ul {
     display: flex;
-    gap: 3rem;
+    height: 100%;
+    gap: 1rem;
+}
+
+header.container nav ul li a {
+    padding: 1rem;
+    height: 100%;
 }
 
 header.container .buttons {
