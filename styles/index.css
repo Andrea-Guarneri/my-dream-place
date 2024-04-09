@@ -123,6 +123,10 @@ header.container .dropdown-menu {
     display: none;
 }
 
+header.container .dropdown-menu img {
+    cursor: pointer;
+}
+
 /* Banner */
 
 main.container .banner {
@@ -193,5 +197,29 @@ main.container .banner .banner-content .banner-slogan p {
 
     header.container .dropdown-menu img {
         width: 40px;
+    }
+}
+
+@media (max-width:767px) {
+    main.container .banner .banner-content {
+        max-height: 350px;
+    }
+}
+
+@media (max-width:667px) {
+    main.container .banner .banner-content .banner-slogan p {
+        font-size: 1rem;
+        max-width: 420px;
+    }
+}
+
+@media (max-width:500px) {
+    main.container .banner .banner-content .banner-slogan {
+        gap: 1rem;
+    }
+
+    main.container .banner .banner-content .banner-slogan h2 {
+        font-size: 1.5rem;
+        padding: 0 1rem;
     }
 }
