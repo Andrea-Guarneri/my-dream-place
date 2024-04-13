@@ -134,6 +134,7 @@ header.container .dropdown-menu img {
 main.container .banner {
     width: 100%;
     margin-top: 12px;
+    position: relative;
 }
 
 main.container .banner .banner-content {
@@ -178,6 +179,7 @@ main.container .banner .banner-content .banner-slogan p {
 main.container .banner .travel-search {
     width: 100%;
     max-width: 1030px;
+    max-height: 64px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px 12px;
@@ -187,18 +189,26 @@ main.container .banner .travel-search {
     background-color: var(--text-secondary-color);
 
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top:-32px;
+    
 }
 
 main.container .banner .travel-search button {
     padding: 12px;
     width: 100%;
+    align-items: center;
 }
 
 main.container .banner .travel-search button:not(.primary) {
     background-color: var(--bg-button-search);
     border-radius: 6px;
-    max-width: 146px;
+    max-width: 156px;
     gap: 10px;
+}
+
+main.container .banner .travel-search button:not(.primary) img {
+    width: 25px;
 }
 
 main.container .banner .travel-search button:first-child {
@@ -210,6 +220,7 @@ main.container .banner .travel-search button:nth-child(4) {
 }
 
 main.container .banner .travel-search button.primary {
+    justify-content: center;
     max-width: 124px;
 }
 
