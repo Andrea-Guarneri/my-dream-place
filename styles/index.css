@@ -205,6 +205,11 @@ main.container .banner .travel-search button:not(.primary) {
     border-radius: 6px;
     max-width: 156px;
     gap: 10px;
+    transition: background 0.35s;
+}
+
+main.container .banner .travel-search button:not(.primary):hover{
+    background-color: #ddd;
 }
 
 main.container .banner .travel-search button:not(.primary) img {
