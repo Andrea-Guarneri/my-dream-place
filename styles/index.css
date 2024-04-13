@@ -242,6 +242,18 @@ main.container .banner .travel-search button.primary {
     }
 }
 
+@media (max-width:1140px){
+    main.container .banner .travel-search {
+        max-width: 900px;
+    }
+}
+
+@media (max-width:1040px) {
+    main.container .banner .travel-search {
+        max-width: 800px;
+    }
+}
+
 @media (max-width:992px) {
 
     header.container nav,
@@ -258,11 +270,26 @@ main.container .banner .travel-search button.primary {
     }
 }
 
+@media (max-width:770px){
+    main.container .banner .travel-search button:not(.primary) span {
+        display: none;
+    }
+
+    main.container .banner .travel-search button:not(.primary) img {
+        width: 100%;
+        max-width: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
 @media (max-width:767px) {
     main.container .banner .banner-content {
         max-height: 350px;
     }
 }
+
 
 @media (max-width:667px) {
     main.container .banner .banner-content .banner-slogan p {
@@ -273,11 +300,18 @@ main.container .banner .travel-search button.primary {
 
 @media (max-width:500px) {
     main.container .banner .banner-content .banner-slogan {
+        padding: 0 1rem;
         gap: 1rem;
     }
 
     main.container .banner .banner-content .banner-slogan h2 {
         font-size: 1.5rem;
-        padding: 0 1rem;
     }
+}
+
+@media (max-width:400px) {
+    main.container .banner .banner-content .banner-slogan h2 {
+        font-size: 1.25rem;
+    }
+
 }
