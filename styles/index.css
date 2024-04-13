@@ -188,12 +188,12 @@ main.container .banner .travel-search {
 }
 
 main.container .banner .travel-search button {
-    background-color: var(--bg-button-search);
     padding: 12px;
     width: 100%;
 }
 
 main.container .banner .travel-search button:not(.primary) {
+    background-color: var(--bg-button-search);
     border-radius: 6px;
     max-width: 146px;
 }
