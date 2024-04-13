@@ -211,6 +211,13 @@ main.container .banner .travel-search button:not(.primary) img {
     width: 25px;
 }
 
+main.container .banner .travel-search button:not(.primary) span {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+}
+
 main.container .banner .travel-search button:first-child {
     max-width: none;
 }
