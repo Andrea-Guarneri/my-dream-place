@@ -198,6 +198,7 @@ main.container .banner .travel-search button:not(.primary) {
     background-color: var(--bg-button-search);
     border-radius: 6px;
     max-width: 146px;
+    gap: 10px;
 }
 
 main.container .banner .travel-search button:first-child {
