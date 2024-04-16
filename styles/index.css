@@ -249,6 +249,7 @@ main.container .box-warning {
 main.container .box-warning .image-warning {
     width: 32px;
     height: 32px;
+    flex-shrink: 0;
 }
 
 main.container .box-warning .image-warning img {
