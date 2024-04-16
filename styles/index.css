@@ -244,6 +244,8 @@ main.container .box-warning {
     align-items: center;
     padding: 1.25rem 1.5rem;
     border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 main.container .box-warning .image-warning {
@@ -260,6 +262,10 @@ main.container .box-warning .image-warning img {
 
 main.container .box-warning .text-warning a {
     color: var(--primary-color);
+}
+
+main.container .enjoy-vacation {
+    background-color: red;
 }
 
 @media (max-width:1292px) {
