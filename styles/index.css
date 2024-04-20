@@ -268,7 +268,7 @@ main.container .enjoy-vacation {
     margin-bottom: 60px;
 }
 
-main.container .enjoy-vacation h3 {
+main.container h3 {
     font-size: 1.5rem;
 }
 
@@ -312,6 +312,33 @@ main.container .enjoy-vacation .locations .location h4 {
     margin-top: 14px;
     margin-bottom: 6px;
 }
+
+main.container section.get-inspiration {
+    background-color: red;
+    margin-bottom: 3.25rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+main.container section.get-inspiration .inspirations {
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1.25rem;
+    
+}
+
+main.container section.get-inspiration .inspirations .inspiration {
+    background-color: green;
+    padding: 1.25rem;
+}
+
+main.container section.get-inspiration .inspirations .inspiration .inspiration-content {
+    background-color: #2F80ED;
+}
+
+
 
 @media (max-width:1292px) {
     .container {
