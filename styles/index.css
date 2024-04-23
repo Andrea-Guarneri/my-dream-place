@@ -347,13 +347,16 @@ main.container section.get-inspiration .inspirations .inspiration .inspiration-c
     position: absolute;
     top: 0;
     left: 0;
+
     padding: 1.25rem;
     width: 100%;
     height: 100%; 
+
     display: flex;
     flex-direction: column;
     row-gap: 10px;
     justify-content: flex-end;
+
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.65));
     color: #fff;
 }
@@ -361,14 +364,22 @@ main.container section.get-inspiration .inspirations .inspiration .inspiration-c
 main.container section.get-inspiration .inspirations .inspiration .inspiration-content h4 {
     font-size: 1.25rem;
     font-weight: 500;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
 }
 
 main.container section.get-inspiration .inspirations .inspiration .inspiration-content p {
     font-size: 1rem;
     font-weight: 300;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
 }
-
-
 
 @media (max-width:1292px) {
     .container {
@@ -417,6 +428,19 @@ main.container section.get-inspiration .inspirations .inspiration .inspiration-c
     main.container section.enjoy-vacation .locations .location .image-card {
         max-width: none;
         
+    }
+
+    main.container section.get-inspiration .inspirations {
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
+    }
+
+    main.container section.get-inspiration .inspirations .inspiration .inspiration-content h4 {
+        font-size: 1.5rem;
+    }
+
+    main.container section.get-inspiration .inspirations .inspiration .inspiration-content p {
+        font-size: 1.1rem;
     }
 }
 
