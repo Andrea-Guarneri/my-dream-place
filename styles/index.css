@@ -381,6 +381,31 @@ main.container section.get-inspiration .inspirations .inspiration .inspiration-c
     -webkit-line-clamp: 2;
 }
 
+main.container section.popular-hotels {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    row-gap: 1.5rem;
+    margin-bottom: 3.25rem;
+}
+
+main.container section.popular-hotels .hotels {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    column-gap: 1.25rem;
+}
+
+main.container section.popular-hotels .hotels .hotel {
+    background-color: green;
+    width: 100%;
+}
+
+main.container section.popular-hotels .hotels .hotel .hotel-content {
+    background-color: blue;
+}
+
 @media (max-width:1292px) {
     .container {
         padding-left: 1rem;
