@@ -384,22 +384,22 @@ main.container section.get-inspiration .inspirations .inspiration .inspiration-c
 main.container section.popular-hotels {
     display: flex;
     flex-direction: column;
-    background-color: red;
     row-gap: 1.5rem;
     margin-bottom: 3.25rem;
 }
 
 main.container section.popular-hotels .hotels {
-    background-color: yellow;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     column-gap: 1.25rem;
 }
 
 main.container section.popular-hotels .hotels .hotel {
-    background-color: green;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
 }
 
 main.container section.popular-hotels .hotels .hotel .image-card {
@@ -407,16 +407,25 @@ main.container section.popular-hotels .hotels .hotel .image-card {
     max-height: 300px;
     width: 100%;
     height: 100%;
+    border-radius: 8px;
 }
 
 main.container section.popular-hotels .hotels .hotel .image-card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 8px;
 }
 
 main.container section.popular-hotels .hotels .hotel .hotel-content {
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+
+main.container section.popular-hotels .hotels .hotel .hotel-content h4 {
+    font-size: 1.15rem;
+    font-weight: 600;
 }
 
 @media (max-width:1292px) {
