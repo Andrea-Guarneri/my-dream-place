@@ -438,6 +438,9 @@ main.container div.app-banner {
 
 main.container div.app-banner img {
     border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 main.container div.app-banner .app-banner-content {
@@ -448,7 +451,7 @@ main.container div.app-banner .app-banner-content {
     height: 100%;
     padding: 4rem;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
     row-gap: 30px;
@@ -486,7 +489,13 @@ main.container div.app-banner .app-banner-content button {
     main.container .banner .travel-search {
         max-width: 800px;
     }
+
+    main.container div.app-banner .app-banner-content h3 {
+        max-width: 500px;
+    }
 }
+
+
 
 @media (max-width:992px) {
 
@@ -536,6 +545,12 @@ main.container div.app-banner .app-banner-content button {
     }
 }
 
+@media (max-width:900px) {
+    main.container div.app-banner .app-banner-content h3{
+        max-width: 400px;
+    }
+}
+
 @media (max-width:770px) {
     main.container .banner .travel-search button:not(.primary) span {
         display: none;
@@ -553,6 +568,13 @@ main.container div.app-banner .app-banner-content button {
 @media (max-width:767px) {
     main.container .banner .banner-content {
         max-height: 350px;
+    }
+}
+
+@media (max-width:700px) {
+    main.container div.app-banner .app-banner-content {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 2.5rem;
     }
 }
 
@@ -591,6 +613,10 @@ main.container div.app-banner .app-banner-content button {
         display: flex;
         flex-direction: column;
         column-gap: 0;
+    }
+
+    main.container div.app-banner .app-banner-content {
+        padding: 2rem;
     }
 }
 
