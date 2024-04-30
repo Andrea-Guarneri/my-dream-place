@@ -484,8 +484,57 @@ main.container div.explore-world h3 {
     font-weight: 600;
 }
 
-main.container div.explore-world a {
-    color: var(--primary-color);
+footer.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.75rem;
+}
+
+footer.container .slogan {
+    display: flex;
+    column-gap: 0.75rem;
+}
+
+footer.container .slogan .image-box img{
+    width: 30px;
+}
+
+footer.container .slogan .slogan-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+footer.container .slogan .slogan-content p {
+    font-size: 14px;
+    max-width: 200px;
+}
+
+footer.container h5.category-title {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+footer.container .category {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.25rem;
+}
+
+footer.container .category ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.625rem;
+}
+
+footer.container .category ul li a {
+    font-size: 14px;
+}
+
+div.copyright {
+    background-color: #ebebeb;
+    text-align: center;
+    padding: 10px;
 }
 
 @media (max-width:1292px) {
@@ -497,6 +546,10 @@ main.container div.explore-world a {
     header.container {
         padding: 1rem;
     }
+}
+
+@media (max-width:1240px) {
+
 }
 
 @media (max-width:1140px) {
