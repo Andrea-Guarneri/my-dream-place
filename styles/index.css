@@ -470,6 +470,24 @@ main.container div.app-banner .app-banner-content button {
     padding: 12px 18px;
 }
 
+main.container div.explore-world {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+main.container div.explore-world h3 {
+    font-weight: 600;
+}
+
+main.container div.explore-world a {
+    color: var(--primary-color);
+}
+
 @media (max-width:1292px) {
     .container {
         padding-left: 1rem;
