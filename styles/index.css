@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Root variables */
+
 :root {
     --text-primary-color: #1e1e1e;
     --text-secondary-color: #fff;
@@ -16,6 +18,8 @@
     --bg-warning-color: #FCEFCA;
 }
 
+/* Base styles */
+
 html,
 body {
     height: 100%;
@@ -26,6 +30,8 @@ body {
 body {
     background-color: var(--bg-main-color);
 }
+
+/* Links */
 
 a {
     text-decoration: none;
@@ -45,6 +51,8 @@ a.highlight {
 ul {
     list-style: none;
 }
+
+/* Buttons */
 
 button {
     all: unset;
@@ -78,12 +86,16 @@ button.secondary {
     border-radius: 6px;
 }
 
+/* Header */
+
 header.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
 }
+
+/* Container */
 
 .container {
     background-color: white;
@@ -93,9 +105,13 @@ header.container {
     margin-right: auto;
 }
 
+/* Header Logo */
+
 header.container .logo img {
     width: 200px;
 }
+
+/* Header Navigation */
 
 header.container nav {
     display: flex;
@@ -113,6 +129,8 @@ header.container nav ul li a {
     height: 100%;
 }
 
+/* Header Buttons */
+
 header.container .buttons {
     display: flex;
     gap: 10px;
@@ -121,6 +139,8 @@ header.container .buttons {
 header.container .buttons button {
     padding: 10px 18px;
 }
+
+/* Hamburger Menu */
 
 header.container .dropdown-menu {
     display: none;
@@ -176,6 +196,8 @@ main.container .banner .banner-content .banner-slogan p {
     max-width: 650px;
     text-align: center;
 }
+
+/* Travel Search box */
 
 main.container .banner .travel-search {
     width: 100%;
@@ -237,6 +259,8 @@ main.container .banner .travel-search button.primary {
     max-width: 124px;
 }
 
+/* Warning Box */
+
 main.container .box-warning {
     background-color: var(--bg-warning-color);
     display: flex;
@@ -263,6 +287,8 @@ main.container .box-warning .image-warning img {
 main.container .box-warning .text-warning a {
     color: var(--primary-color);
 }
+
+/* Enjoy Vacation Section */
 
 main.container .enjoy-vacation {
     margin-bottom: 60px;
@@ -321,6 +347,7 @@ main.container section.get-inspiration {
 
 }
 
+/* Get Inspiration Section */
 main.container section.get-inspiration .inspirations {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -381,6 +408,7 @@ main.container section.get-inspiration .inspirations .inspiration .inspiration-c
     -webkit-line-clamp: 2;
 }
 
+/* Popular Hotels Section */
 main.container section.popular-hotels {
     display: flex;
     flex-direction: column;
@@ -428,6 +456,7 @@ main.container section.popular-hotels .hotels .hotel .hotel-content h4 {
     font-weight: 600;
 }
 
+/* Banner download app */
 main.container div.app-banner {
     height: 280px;
     width: 100%;
@@ -470,6 +499,8 @@ main.container div.app-banner .app-banner-content button {
     padding: 12px 18px;
 }
 
+/* Explore World Section */
+
 main.container div.explore-world {
     text-align: center;
     display: flex;
@@ -482,8 +513,6 @@ main.container div.explore-world {
 main.container div.explore-world h3 {
     font-weight: 600;
 }
-
-
 
 main.container .slogan {
     display: flex;
@@ -498,6 +527,8 @@ main.container .slogan {
 main.container .slogan .image-box img {
     width: 250px;
 }
+
+/* Footer */
 
 footer.container {
     display: flex;
@@ -527,6 +558,8 @@ footer.container .category ul li a {
     font-size: 14px;
 }
 
+/* Copyright */
+
 div.copyright {
     background-color: #ebebeb;
     text-align: center;
@@ -543,6 +576,8 @@ div.copyright {
         padding: 1rem;
     }
 }
+
+/****** Media Queries ******/
 
 @media (max-width:1140px) {
     main.container .banner .travel-search {
@@ -569,8 +604,6 @@ div.copyright {
         padding-left: 4rem;
     }
 }
-
-
 
 @media (max-width:992px) {
 
