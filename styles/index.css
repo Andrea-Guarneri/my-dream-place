@@ -477,37 +477,33 @@ main.container div.explore-world {
     row-gap: 1rem;
     align-items: center;
     justify-content: center;
-    margin-bottom: 5rem;
 }
 
 main.container div.explore-world h3 {
     font-weight: 600;
 }
 
+
+
+main.container .slogan {
+    display: flex;
+    column-gap: 0.75rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #ccc;
+}
+
+main.container .slogan .image-box img {
+    width: 250px;
+}
+
 footer.container {
     display: flex;
     justify-content: space-between;
     margin-bottom: 3.75rem;
-}
-
-footer.container .slogan {
-    display: flex;
-    column-gap: 0.75rem;
-}
-
-footer.container .slogan .image-box img{
-    width: 30px;
-}
-
-footer.container .slogan .slogan-content {
-    display: flex;
-    flex-direction: column;
-    row-gap: 0.5rem;
-}
-
-footer.container .slogan .slogan-content p {
-    font-size: 14px;
-    max-width: 200px;
+    padding-top: 3rem;
 }
 
 footer.container h5.category-title {
@@ -548,10 +544,6 @@ div.copyright {
     }
 }
 
-@media (max-width:1240px) {
-
-}
-
 @media (max-width:1140px) {
     main.container .banner .travel-search {
         max-width: 900px;
@@ -565,6 +557,16 @@ div.copyright {
 
     main.container div.app-banner .app-banner-content h3 {
         max-width: 500px;
+    }
+
+    footer.container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 2rem;
+    }
+
+    footer.container .category {
+        padding-left: 4rem;
     }
 }
 
@@ -621,6 +623,10 @@ div.copyright {
 @media (max-width:900px) {
     main.container div.app-banner .app-banner-content h3 {
         max-width: 400px;
+    }
+
+    footer.container {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -683,6 +689,21 @@ div.copyright {
 
     main.container div.app-banner .app-banner-content h3 {
         font-size: 1.5rem;
+    }
+
+    main.container .slogan {
+        border-bottom: none;
+        padding-bottom: 1rem;
+    }
+
+    footer.container {
+        padding-top: 1rem;
+        grid-template-columns: 1fr;
+    }
+
+    footer.container .category {
+        padding-top: 2rem;
+        border-top: 1px solid #ccc;
     }
 }
 
