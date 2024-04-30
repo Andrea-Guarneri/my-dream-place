@@ -17,6 +17,10 @@ This project is the culmination of my journey as a front-end developer, represen
 - **Explore World Section:** Invites users to discover new places and experiences.
 - **Footer:** Includes various categories such as Company, Explore, Terms and Policies, and Help, along with relevant links.
 
+## Preview
+
+You can view the project live here https://mydreamplace-ag.netlify.app/
+
 ## Technologies Used
 
 - **HTML:** Used for structuring the content of the website.
