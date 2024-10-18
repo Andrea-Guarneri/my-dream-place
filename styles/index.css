@@ -560,6 +560,29 @@ footer.container .category ul li a {
 
 /* Copyright */
 
+.copyright {
+    display: flex;
+    flex-direction: column;
+    /* Stack elements vertically */
+    align-items: center;
+    /* Center align items horizontally */
+    text-align: center;
+    /* Center text within span */
+    padding: 20px;
+}
+
+.copyright .logo {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.copyright span {
+    font-size: 0.875rem;
+    /* Adjust font size as needed */
+}
+
+
 div.copyright {
     background-color: #ebebeb;
     text-align: center;
